@@ -1,0 +1,118 @@
+body {
+    background-color:rgb(48, 46, 46);
+    color:whitesmoke;
+}
+.postbuttons{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.postbuttons2{
+    display: none;
+}
+.postbuttons2 a{
+    display: none;
+}
+.postbuttons a{
+    border: bottom;
+    background-color: none;
+    margin: 7%;
+    cursor: pointer;
+    color:rgb(253, 250, 250);
+    text-decoration: none;
+    display: flex;
+}
+.postbuttons img {
+    border-color: white;
+    filter: invert();
+}
+.bigbox{
+    width: 75%;
+    height: 100%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bigbox2{display: none;}
+.sidebar{
+    background-color: brown;
+}
+.bigbox div{
+    display: flex;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -1.5%;
+}
+.mainbox div {
+    margin: 0.1%;
+}
+.mainbox img {
+    width: 300px;
+}
+.mainbox video{
+    width: 300px;
+}
+@media screen and (max-width: 550px) {
+    body {
+        background-color:rgb(49, 47, 47);
+        color:rgb(20, 18, 18);
+    }
+    .postbuttons2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .postbuttons2 a{
+        border: bottom;
+        background-color: none;
+        margin: 7%;
+        cursor: pointer;
+        color:rgb(14, 13, 13);
+        text-decoration: none;
+        display: flex;
+    }
+    .postbuttons2 img {
+        border-color: rgb(247, 244, 244);
+        filter: invert();
+    }.postbuttons{
+        display: none;
+    }
+    .postbuttons a{
+        display: none;
+    }
+    .bigbox{display: none;}
+    .bigbox2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 25%;
+    }
+    .sidebar{
+        background-color: brown;
+    }
+    .bigbox div{
+        display: flex;
+    }
+    .mainbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: -1.5%;
+    }
+    .mainbox div {
+        margin: 0.1%;
+    }   
+    .mainbox img {
+        width: 155px;
+    }
+    .mainbox video{
+        width: 155px;
+    }
+    #mb1{display: flex;}
+}

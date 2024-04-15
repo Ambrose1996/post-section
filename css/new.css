@@ -1,0 +1,12 @@
+.main {
+    background-color: brown;
+    display: flex;
+    color: blue;
+    justify-content: space-around;
+    align-items: center;
+}
+#box{
+    background-color: aqua;
+    width: 9%;
+    text-align: center;
+}
